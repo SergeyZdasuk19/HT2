@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="2">
+    <test name="TestOne">
+        <classes>
+            <class name="wd.PageObjectSeleniumTest"/>
+        </classes>
+    </test>
+
+    <test name="ExtremeTests">
+        <classes>
+            <class name="wd.PageObjectSeleniumTest.sampleTestForSing"/>
+        </classes>
+    </test>
+</suite>
